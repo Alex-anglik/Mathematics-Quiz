@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/> 
+   
+    <title>Congrats!</title>
+</head>
+ <body>
+  <div class="container">
+    <div class="flex-center flex-column">
+      <h1>History</h1>
+      
+      <input type="text" id="username" name="username" placeholder="username"><br><br>
+      <button class="btn" onclick="start()">Display Data</button>
+      <a href="/Home.html" class="btn">Go home</a>
+
+      <br><br>
+      <table>
+        <thead>
+          <tr>
+            <th>Username</th>
+            <th>Grade</th>
+            <th>Topics</th>
+          </tr>
+        </thead>
+        <tbody id="user-data">
+        </tbody>
+      </table>
+    </div>
+  </div>
+    <script src="history.js"></script>
+  </body>
+</html>
